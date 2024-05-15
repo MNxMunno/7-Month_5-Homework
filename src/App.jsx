@@ -9,6 +9,7 @@ import Contact from "./routers/contact/Contact";
 import Home from "./routers/home/Home";
 import "./scss/main.scss";
 import PageNotFound from "./components/pageNotFound/PageNotFound";
+import Checkout from "./routers/checkout/Checkout";
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         {/* <Route path="/shop" element={<AllCart />} /> */}
         <Route path="/wishlist" element={<Wishlist />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Checkout />} />
         <Route path="/product/:id" element={<SingleRoute />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>

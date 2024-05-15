@@ -15,22 +15,22 @@ const Header = () => {
             <img src={logo_2} alt="" />
           </NavLink>
           <div className="nav__items">
-            <NavLink to={"/"}>
+            <NavLink className="link_par" to={"/"}>
               <FaHome className="icon" />
               <p className="link">Home</p>
             </NavLink>
-            <NavLink to={"/shop"}>
+            <NavLink className="link_par" to={"/shop"}>
               <FaShoppingCart className="icon" />
               <p className="link">Shop All</p>
             </NavLink>
-            <NavLink to={"/wishlist"}>
+            <NavLink className="link_par" to={"/wishlist"}>
               <FaHeart className="icon" />
               <p className="link">Wishlist</p>
             </NavLink>
             <NavLink className="logo" to={"/"}>
               <img src={logo} alt="" />
             </NavLink>
-            <NavLink to={"/contact"}>
+            <NavLink className="link_par" to={"/contact"}>
               <GrContact className="icon" />
               <p className="link">Contact Us</p>
             </NavLink>
