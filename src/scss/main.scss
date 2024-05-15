@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Inter;
+  src: url(../assets/fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Lalezar;
+  src: url(../assets/fonts/Lalezar-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+main {
+  padding-top: 80px;
+}
+
+@import "./components/footer";
+@import "./components/header";
+@import "./components/notFound";
+@import "./components/products";
+@import "./components/skeleton";
+@import "./routers/checkout";
+@import "./routers/home";
+@import "./routers/singleRoute";
+@import "./routers/wishlist";
+@import "./static/banner";
+@import "./static/btn";
+@import "./static/cart";
