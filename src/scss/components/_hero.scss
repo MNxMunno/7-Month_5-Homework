@@ -1,0 +1,46 @@
+.hero {
+  padding-top: 40px;
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    .card {
+      h2 {
+        font-family: Lilita One;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 73.15px;
+        text-align: left;
+        color: #000;
+      }
+      img {
+        width: 100%;
+      }
+      h1 {
+        max-width: 640px;
+        font-family: Lalezar;
+        font-size: 96px;
+        font-weight: 400;
+        line-height: 100px;
+        text-align: left;
+        color: #f42d2d;
+        padding: 20px 0;
+      }
+    }
+  }
+  @media only screen and (max-width: 666px) {
+    .cards {
+      .card {
+        h1 {
+          font-size: 36px;
+          line-height: 48px;
+        }
+        h2 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}

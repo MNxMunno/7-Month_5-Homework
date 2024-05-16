@@ -6,6 +6,10 @@
   font-family: Lalezar;
   src: url(../assets/fonts/Lalezar-Regular.ttf);
 }
+@font-face {
+  font-family: Lilita One;
+  src: url(../assets/fonts/LilitaOne-Regular.ttf);
+}
 
 * {
   margin: 0;
@@ -36,6 +40,8 @@ main {
   padding-top: 80px;
 }
 
+@import "./components/hero";
+@import "./components/aboutUs";
 @import "./components/footer";
 @import "./components/header";
 @import "./components/notFound";
