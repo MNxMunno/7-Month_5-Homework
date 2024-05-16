@@ -1,0 +1,61 @@
+footer {
+  padding: 80px 0 85px;
+  background: #edf2f4;
+  .cards {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .card {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+
+      h3 {
+        padding-bottom: 32px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.36px;
+        text-align: left;
+        color: #000;
+      }
+      p {
+        max-width: 186px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.94px;
+        text-align: justified;
+        color: #000;
+        padding-top: 1px;
+      }
+      a {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        color: #000;
+      }
+    }
+    .link_card {
+      a {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        color: #000;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 0;
+        svg {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}
