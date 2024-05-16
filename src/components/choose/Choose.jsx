@@ -40,6 +40,8 @@ const Choose = () => {
     <section className="choose">
       <div className="container">
         <div className="content">
+          <div className="red"></div>
+          <p>Why Choose US</p>
           <div className="cards">{card}</div>
         </div>
       </div>
