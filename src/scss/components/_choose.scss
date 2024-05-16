@@ -1,0 +1,40 @@
+.choose {
+  padding: 110px 0;
+  .content {
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        flex-direction: column;
+        svg {
+          font-size: 40px;
+          color: #ff0000;
+        }
+        h2 {
+          font-family: Lalezar;
+          font-size: 48px;
+          font-weight: 400;
+          line-height: 60px;
+          text-align: center;
+          color: #000;
+          padding: 24px 0 20px;
+        }
+        p {
+          max-width: 339px;
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 21.78px;
+          text-align: center;
+          color: #000;
+        }
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ import Header from "../../components/header/Header";
 import Hero from "../../components/hero/Hero";
 import AboutUs from "../../components/about/AboutUs";
 import Banner from "../../static/banner/Banner";
+import Choose from "../../components/choose/Choose";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Products />
       <AboutUs />
       <Banner />
+      <Choose />
     </main>
   );
 };
