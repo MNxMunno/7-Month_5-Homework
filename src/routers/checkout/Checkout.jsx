@@ -28,6 +28,7 @@ const Checkout = () => {
     let api = new XMLHttpRequest();
     api.open("GET", url, true);
     api.send();
+    setData(initialState);
   };
   return (
     <section className="inputs">
@@ -67,7 +68,7 @@ const Checkout = () => {
               name="text"
               id="text"
               rows="4"
-              cols="50"
+              cols="40"
             ></textarea>
             <button>Buy now</button>
           </form>

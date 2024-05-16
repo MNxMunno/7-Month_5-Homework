@@ -58,4 +58,9 @@ footer {
       }
     }
   }
+  @media only screen and (max-width: 737px) {
+    .cards {
+      justify-content: center;
+    }
+  }
 }
